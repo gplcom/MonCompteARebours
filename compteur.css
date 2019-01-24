@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+html,body {
+  background-color: cyan;
+  font-family: 'Work Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button, button:focus {
+  border: 0;
+  outline: none;
+}
+
+header {
+  color: #ccac00;
+  text-shadow: 2px 2px #e7c300;
+  letter-spacing: 1rem;
+}
+
+footer {
+  color: #ccac00;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.btns > button {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-weight: 500;
+  height: 2rem;
+  width: 5rem;
+}
+
+.green {
+  color: #6a896a;
+  background-color: darkseagreen;
+}
+
+.red {
+  color: #c1686a;
+  background-color: lightcoral;
+}
+
+.blue {
+  color: #71aacb;
+  background-color: lightskyblue;
+}
+
+.green:hover { background-color: #a1d1a1; }
+.red:hover { background-color: #f29fa0; }
+.blue:hover { background-color: #aadbf8; }
+
+#timer {
+  font-size: 10rem;
+  font-weight: 800;
+  width: 475px;
+  text-align: center;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.timer-container > button {
+  background-color: transparent;
+  color: #e7c300;
+}
+
+.timer-container > button:hover {
+  color: #ccac00;
+}
+
+.timer-container > button:disabled {
+  color: #ccac00;
+}
+
+#session-minus {
+  margin-right: 1rem;
+}
+
+#session-plus {
+  margin-left: 1rem;
+}
